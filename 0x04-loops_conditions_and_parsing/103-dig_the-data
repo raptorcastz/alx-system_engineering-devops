@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # This script groups visitors by IP and HTTP status code and displays the data.
+
 if [ ! -f apache-access.log ]; then
 	echo 'Apache log file "apache-access.log" not found.'
 	exit 1
