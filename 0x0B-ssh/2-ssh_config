@@ -1,4 +1,4 @@
-# Configuration ssh client_so that_you can_connect
+~# Configuration ssh client_so that_you can_connect
 # to a_server without_typing a_password.
 Host *
     SendEnv LANG LC_*
